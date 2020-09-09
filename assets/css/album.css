@@ -1,0 +1,47 @@
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+.card-img-top{
+ height: 20vh!important;
+ -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.forcecorrect {
+  width: auto;
+  max-height: 60vh;
+  
+}
+
+.caroucorrect {
+  display: inline-block;
+  max-height: 60vh;
+
+}
