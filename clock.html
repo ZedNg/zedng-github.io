@@ -1,0 +1,87 @@
+<div class="col">
+    <div class="card h-100">
+        <img alt="Card image cap" class="card-img-top cardImgSize" height="225"
+            src="https://www.zedng.xyz/242p1/preview.jpg" />
+
+        <div class="card-body">
+            <div class="d-flex flex-column" style="height: 100%;">
+                <div class="mb-auto">
+                    <h5 class="card-title">Growing Circles (2019)</h5>
+                </div>
+                <div class="flex-row" style="width: 100%;">
+
+                    <div class="btn-group pe-3">
+                        <button type="button" class="btn btn-sm btn-outline-secondary stretched-link"
+                            data-bs-toggle="modal" data-bs-target="#clockModal">
+                            View Details
+                        </button>
+                    </div>
+
+                    <small class="text-wrap text-muted position-absolute end-0 me-3 mt-1">Coding</small>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="clockModal" tabindex="-1" aria-labelledby="clockModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="clockModalLabel">Growing Circles (2019)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="ratio ratio-16x9 mb-3">
+                        <iframe src="https://www.zedng.xyz/242p1/index.html" scrolling="no"></iframe>
+                </div>
+                <small class="d-block text-center mb-1"
+                >If you on Mozilla Firefox, the JavaScript Canvas might not load.
+                <a href="https://bl.ocks.org/ngziy/5fddc30186651b618a0205d261bbcf51"
+                >Click here to view the original codes.</a
+                ></small>
+
+                <div class="text-justify mx-5">
+
+                    <p>The idea is to "grow" ellipses to show changes in the time.</p>
+
+                        <p> I wanted to give it a minimalist style to keep it clean and simple. In my original idea, I wanted to use only the colours to as a reference to the exact number on the clock, but the flashing clock is very irritating so that that part of the idea is scrapped. Thus, I added a "blob" on each ellipses and have them moved according to the movement of the hands on the traditional analog clock. When the clock is armed, a circle appears around the clock and it shrinks into the clock until the countdown(set to 20 seconds by default) reaches zero.</p>
+                    
+                            <p>In case of any difficulty on reading the clock, the time in HH:MM:SS format is shown in the center of the clock when the mouse cursor is close to the center. A text indicator of the alarm and the countdown is also shown when mouse is near the center and the alarm is armed.</p>
+                    
+                                <p>The background changes colour with reference to the time period.</p>
+                                <ul>
+                                    <li>Purple &rarr Early Morning &rarr 12AM to 7AM</li>
+                                    <li>Yellow &rarr Dawn &rarr 7AM to 11AM</li>
+                                    <li>Blue &rarr Noon &rarr 11AM to 4PM</li>
+                                    <li>Pink &rarr Dusk &rarr 4PM to 8PM</li>
+                                    <li>Dark Blue &rarr Late Night &rarr 8PM to 12AM</li>
+                                  </ul>
+
+                
+       
+
+                    <p>
+                        The project was part of the course work of
+                        <a
+                        href="https://www.wgtn.ac.nz/courses/mddn/242/2019"
+                        target="_blank"
+                        >MDDN242: Creative Coding II for the Bachelor of Design
+                        Innovation (BDI) at Victoria University of Wellington
+                        (VUW)</a
+                        >.
+                </div>
+
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
