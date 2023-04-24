@@ -1,4 +1,5 @@
 $(function () {
+  $("#polynomialdivination").load("polynomialdivination.html");
   $("#appletoss").load("appletoss.html");
   $("#lettinggoagain").load("lettinggoagain.html");
   $("#bubbles").load("bubbles.html");
